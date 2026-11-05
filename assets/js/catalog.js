@@ -35,6 +35,6 @@ export const TECH = [
 ];
 
 export const CONTACT = {
-  email:   'sync@leoneighunfiltered.com',
+  email:   'leoneighunfiltered@gmail.com',
   company: 'Leoneigh Unfiltered',
 };
