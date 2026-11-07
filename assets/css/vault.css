@@ -86,10 +86,11 @@ button{ font:inherit; color:inherit; }
 .brand{ display:flex; align-items:center; gap:12px; min-width:0; }
 
 .brand-mark{
-  display:grid; place-items:center;
+  display:block;
   width:34px; height:34px; flex:0 0 auto;
   border-radius:var(--r-sm);
   object-fit:cover;
+  overflow:hidden;
 }
 
 .brand-name{ font-size:13px; font-weight:600; letter-spacing:.14em; }
