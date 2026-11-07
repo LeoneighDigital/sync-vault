@@ -88,11 +88,8 @@ button{ font:inherit; color:inherit; }
 .brand-mark{
   display:grid; place-items:center;
   width:34px; height:34px; flex:0 0 auto;
-  border:1px solid var(--accent);
   border-radius:var(--r-sm);
-  font-family:var(--mono); font-size:12px; font-weight:700;
-  letter-spacing:.04em; color:var(--accent);
-  background:var(--accent-dim);
+  object-fit:cover;
 }
 
 .brand-name{ font-size:13px; font-weight:600; letter-spacing:.14em; }
